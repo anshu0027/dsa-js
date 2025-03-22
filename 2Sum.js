@@ -17,3 +17,23 @@ function twoSum(arr, target) {
 // Example
 console.log(twoSum([2, 7, 11, 15], 9)); // Output: [0, 1] (2 + 7 = 9)
 console.log(twoSum([3, 2, 4], 6)); // Output: [1, 2] (2 + 4 = 6)
+
+
+
+
+
+
+
+// Initialize a Hash Map: Create an empty map to store numbers and their indices.
+
+// Iterate Over the Array: Loop through each element in the array.
+
+// Calculate Complement: Subtract the current number from the target.
+
+// Check if Complement Exists in Map:
+
+// If yes, return the stored index and the current index as a pair.
+
+// If no, store the current number and its index in the map.
+
+// Return Empty Array if No Pair Found.

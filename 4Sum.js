@@ -34,3 +34,39 @@ function fourSum(arr, target) {
 // Example
 console.log(fourSum([1, 0, -1, 0, -2, 2], 0));
 // Output: [[-2, -1, 1, 2], [-2, 0, 0, 2], [-1, 0, 0, 1]]
+
+
+
+
+
+
+
+// Sort the Array in ascending order.
+
+// Initialize result as an empty list to store valid quadruplets.
+
+// Loop Through the Array(i from 0 to length - 3):
+
+// Skip duplicates if arr[i] == arr[i - 1].
+
+// Nested Loop(j from i + 1 to length - 2):
+
+// Skip duplicates if arr[j] == arr[j - 1].
+
+// Use Two - Pointer Approach(left = j + 1, right = last index):
+
+// Calculate sum = arr[i] + arr[j] + arr[left] + arr[right].
+
+// If sum == target:
+
+// Add[arr[i], arr[j], arr[left], arr[right]] to result.
+
+// Skip duplicates for left and right.
+
+// Move both pointers(left++, right--).
+
+// If sum < target, move left++.
+
+// If sum > target, move right--.
+
+// Return result list.

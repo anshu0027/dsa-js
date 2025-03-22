@@ -21,3 +21,23 @@ function addTwoNumbers(l1, l2) {
 
     return dummyHead.next;
 }
+
+
+
+
+
+// Create a Dummy Head Node to store the result list.
+
+// Initialize carry to 0 for handling sums greater than 9.
+
+// Loop While l1, l2, or carry Exists:
+
+// Compute sum = (l1 value or 0) + (l2 value or 0) + carry.
+
+// Update carry = sum / 10(integer division).
+
+// Create a new node with sum % 10 and attach it to the result list.
+
+// Move l1 and l2 to their next nodes if they exist.
+
+// Return the Next Node of Dummy Head(as the actual result list).
